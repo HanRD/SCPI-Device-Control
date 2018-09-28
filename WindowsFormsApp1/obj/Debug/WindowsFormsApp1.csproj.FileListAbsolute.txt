@@ -16,4 +16,6 @@ D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Ivi.Visa.dll
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\NationalInstruments.Visa.dll
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Ivi.Visa.xml
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\NationalInstruments.Visa.xml
-D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\websocket-sharp.dll
+D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
