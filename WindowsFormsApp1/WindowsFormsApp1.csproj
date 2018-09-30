@@ -36,7 +36,7 @@
     <Reference Include="AgE441x_A_09_01">
       <HintPath>C:\ProgramData\Keysight\Command Expert\ScpiNetDrivers\AgE441x_A_09_01.dll</HintPath>
     </Reference>
-    <Reference Include="Ivi.Visa, Version=5.8.0.0, Culture=neutral, PublicKeyToken=a128c98f1d7717c1, processorArchitecture=MSIL" />
+    <Reference Include="Ivi.Visa, Version=5.6.0.0, Culture=neutral, PublicKeyToken=a128c98f1d7717c1, processorArchitecture=MSIL" />
     <Reference Include="NationalInstruments.Visa, Version=17.5.0.49152, Culture=neutral, PublicKeyToken=2eaa5af0834e221d, processorArchitecture=MSIL" />
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -58,6 +58,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WebSocketCommunication.cs" />
+    <Compile Include="SCPIConf.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -3,7 +3,6 @@ D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
-D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
@@ -19,3 +18,4 @@ D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\NationalInstrumen
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\websocket-sharp.dll
 D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+D:\VS\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
