@@ -40,6 +40,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -142,11 +143,22 @@
             this.textBox2.Size = new System.Drawing.Size(235, 21);
             this.textBox2.TabIndex = 12;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(235, 75);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(95, 23);
+            this.button5.TabIndex = 13;
+            this.button5.Text = "获取所有参数";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 171);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label4);
@@ -179,6 +191,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button5;
     }
 }
 

@@ -20,6 +20,7 @@ namespace WindowsFormsApp1
         Ivi.Visa.Interop.ResourceManagerClass rm;
         Ivi.Visa.Interop.FormattedIO488Class ioobj;
         SCPIConf scpiconf = new SCPIConf();
+        WebSocketCommunication socketconf = new WebSocketCommunication();
         private List<int> xaxis;
         private List<int> yaxis;
         private Dictionary<string, string> deviceDict;
@@ -32,7 +33,7 @@ namespace WindowsFormsApp1
             {
                 xaxis.Add(i);
             }
-            
+            socketconf.InitWebsocketSession();
             InitializeComponent();
             button1.Enabled = false;
             button3.Enabled = false;
@@ -40,8 +41,10 @@ namespace WindowsFormsApp1
 
         }
 
-   
 
+        public string getSelectedDevice() {
+            return _selecteddevice;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -55,6 +58,7 @@ namespace WindowsFormsApp1
                 object[] idnItems;
                 string[] availabledevice;
                 deviceDict = new Dictionary<string, string>();
+                comboBox1.Items.Clear();
                 List<string> ConnectedDeviceList = new List<string>();
                 availabledevice = (string[])rm.FindRsrc("USB?*INSTR");
                 if (availabledevice.Length > 0)
@@ -123,6 +127,7 @@ namespace WindowsFormsApp1
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             _selecteddevice = deviceDict[(string)comboBox1.SelectedItem];
+            socketconf.setdeviceaddress(_selecteddevice);
             button1.Enabled = true;
             button3.Enabled = true;
             button4.Enabled = true;
@@ -137,7 +142,11 @@ namespace WindowsFormsApp1
         private void button4_Click(object sender, EventArgs e)
         {
             textBox2.Text=scpiconf.SendSCPICommandAndReadString(textBox1.Text, _selecteddevice);
-            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            socketconf.getFullData(_selecteddevice);
         }
     }
        

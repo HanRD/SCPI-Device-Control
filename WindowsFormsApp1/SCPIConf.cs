@@ -9,6 +9,7 @@ namespace WindowsFormsApp1
 {
     class SCPIConf
     {
+        Form1 form;
         Ivi.Visa.Interop.ResourceManagerClass rm;
         Ivi.Visa.Interop.FormattedIO488Class ioobj;
         private string _selecteddeviceaddress { get; set; }
